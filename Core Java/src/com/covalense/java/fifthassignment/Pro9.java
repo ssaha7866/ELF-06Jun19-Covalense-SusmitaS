@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import lombok.extern.java.Log;
+@Log
 public class Pro9 {
 
 	public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class Pro9 {
 		m.put("first", a);
 		for (Map.Entry<String, ArrayList<Student>> e : m.entrySet()) {
 			String key = e.getKey();
-			System.out.println(key);
+			log.info(""+key);
 			ArrayList<Student> ar = e.getValue();
 			for (Student el : ar) {
 				el.get();
