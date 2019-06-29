@@ -1,0 +1,69 @@
+body{
+    background-color: blanchedalmond;
+}
+nav{
+    width: 100%;
+    background: rgb(228, 49, 49);
+
+}
+ul{
+    margin:0;
+}
+li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    padding: 30px;
+    display: block;
+}
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 40px;
+}
+input:focus{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 40px;
+    background: rgb(171, 247, 152);
+    border: yellow;
+    box-shadow: 0 0 4px 8px green;
+
+}
+
+input:hover{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 40px;
+    background: rgb(171, 247, 152);
+    border: yellow;
+    box-shadow: 0 0 4px 8px green;
+
+}
+
+button :focus{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 40px;
+    background: rgb(171, 247, 152);
+    border: yellow;
+    box-shadow: 0 0 4px 8px green;
+}
+#login{
+    background: red;
+    border-radius: 15px;
+    margin: 40px;
+    background: rgb(171, 247, 152);
+    border: yellow;
+    box-shadow: 0 0 4px 8px green;
+}
+p section{
+    font-size: 30px;
+}
