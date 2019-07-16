@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Message bean details -->
+	<bean id="messageBean"
+		class="com.covalense.springcore.beans.MessageBean">
+		<property name="message" value="welcome to"></property>
+	</bean>
+
+	<!-- Employee bean details -->
+
+	<!-- <bean id="Employee" class="com.covalense.springcore.beans.EmployeeBean"> 
+		<property name="name" value="Susmita Saha"></property> <property name="id" 
+		value="01"></property> </bean> -->
+
+	<bean id="Employee1"
+		class="com.covalense.springcore.beans.EmployeeBean" scope="prototype">
+
+	</bean>
+	
+	
+</beans>
