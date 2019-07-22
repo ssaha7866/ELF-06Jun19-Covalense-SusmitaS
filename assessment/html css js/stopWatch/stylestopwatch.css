@@ -1,0 +1,60 @@
+#timerContainer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    width:700px;
+    margin:20px auto;
+    min-height: 60px;
+    border-top:0px;
+  }
+  .timer, .reset {
+    float:left;
+    width: 54%;
+    padding: 20px 0;
+    font-size: 24px;
+    text-align:center;
+    color: #fff;
+    background: rgba(109, 188, 219, 0.788);
+    cursor: pointer
+  }
+  .reset {
+    background: #4548ebb6;
+    color: white;
+    width:14.9%;
+    border-left: 1px solid #5230e6c2;
+  }
+  .reset:hover {
+    background: rgba(60, 112, 172, 0.658);
+  }
+  .lighter {
+    background: rgba(214, 79, 214, 0.61);
+  }
+    #timerContainer {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 300;
+        width:700px;
+        margin:20px auto;
+        min-height: 60px;
+        border-top:0px;
+      }
+      .timer, .reset {
+        float:left;
+        width: 54%;
+        padding: 20px 0;
+        font-size: 24px;
+        text-align:center;
+        color: #fff;
+        background: rgb(79, 87, 209);
+        cursor: pointer
+      }
+      .reset {
+        background: #4a48c5;
+        color: white;
+        width:14.9%;
+        border-left: 1px solid #d63be4;
+      }
+      .reset:hover {
+        background: rgb(173, 55, 202);
+      }
+      .lighter {
+        background: rgba(233, 79, 233, 0.733)
+      }

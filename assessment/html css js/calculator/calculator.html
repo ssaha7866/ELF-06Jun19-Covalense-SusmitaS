@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="stylecalc.css">
+<title>Calculator App</title>
+
+</head>
+<body>
+	
+	<form name="form1">
+	<table align="center" class="table">
+	<tr><td colspan="4" class="td" >SIMPLE CALCULATOR</td></tr>
+		<tr><td colspan="4" class="td">
+		<input class="input" type = "text" name="result" placeholder="0" disabled style="text-align:right"></input>
+		</td></tr>
+		<tr>
+		<td class="td"><button type = "button" onclick="number(value)" value="1" class="button">1</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="2" class="button">2</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="3" class="button">3</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="+" class="button">+</button></td>
+		</tr>
+		<tr>
+		<td class="td"><button type = "button" onclick="number(value)" value="4" class="button">4</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="5" class="button">5</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="6" class="button">6</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="-" class="button">-</button></td>
+		</tr>
+		<tr>
+		<td class="td"><button type = "button" onclick="number(value)" value="7" class="button">7</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="8" class="button">8</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="9" class="button">9</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="/" class="button">/</button></td>
+		</tr>
+		<tr>
+		<td class="td"><button type = "button" onclick="number(value)" value="." class="button"><strong>.</strong></button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="0" class="button">0</button></td>
+		<td class="td"><button type = "button" onclick="number(value)" value="*" class="button">*</button></td>		
+		<td class="td"><button type = "button" onclick="number(value)" value="%" class="button">%</button></td>
+		</tr>
+		<tr>
+		<td class="td">
+		<button type = "button" onclick="cle(value)" value="" class="button">C</button></td>
+		<td class="td">
+		<button type = "button" onclick="back()" class="button" id="del">del</button>
+		</td>
+		<td colspan="2" class="td">
+		<button type = "button" onclick="evalua()" class="button">=</button>
+		</td>		
+		</tr>
+	</table>
+	</form>
+	
+	<script src="logic.js"></script>
+</body>
+</html>
