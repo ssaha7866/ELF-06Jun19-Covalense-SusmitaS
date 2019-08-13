@@ -1,8 +1,11 @@
 package com.covalense.emp.beans;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
 import lombok.Data;
@@ -11,9 +14,10 @@ import lombok.Data;
 @Table(name="employee_otherinfo")
 public class EmployeeOtherInfoBean {
 
-	@Id
-	@Column(name="ID")
-	private int employeeId;
+	
+	@OneToOne(cascade= CascadeType.ALL)
+	@PrimaryKeyJoinColumn
+	private EmployeeInfoBean employeeInfoBean;
 	
 	@Column(name="PAN")
 	private String panNo;

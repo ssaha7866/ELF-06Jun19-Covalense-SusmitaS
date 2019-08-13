@@ -15,7 +15,7 @@ import com.covalense.emp.beans.EmployeeInfoBean;
 import com.covalense.emp.dao.EmployeeDAO;
 import com.covalense.emp.dao.EmployeeDAOFactory;
 
-@WebServlet("./loginpage")
+@WebServlet("/loginpage")
 public class LoginPageServlet extends HttpServlet {
 
 	@Override

@@ -20,9 +20,6 @@ import lombok.Data;
 @Table(name = "employee_info")
 public class EmployeeInfoBean implements Serializable {
 
-	/*@OneToOne(cascade= CascadeType.ALL)
-	@PrimaryKeyJoinColumn
-	private EmployeeOtherInfoBean employeeOtherInfoBean;*/
 	@Id
 	@Column(name = "ID")
 	private int employeeId;
