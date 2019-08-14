@@ -6,13 +6,14 @@ import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
+
+//import lombok.Data;
 
 @SuppressWarnings("serial")
 //@XmlAccessorType(XmlAccessType.FIELD)
 @Entity
 @Table(name="employee_addinfo")
+//@Data
 public class EmployeeAddInfoBean implements Serializable {
 
 	

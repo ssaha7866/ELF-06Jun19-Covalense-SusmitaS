@@ -13,6 +13,8 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlTransient;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @XmlAccessorType(XmlAccessType.FIELD)
 @SuppressWarnings("serial")
 @Entity
@@ -133,7 +135,8 @@ public class EmployeeOtherInfoBean implements Serializable{
 		this.spouseName = spouseName;
 	}
 
-	@XmlTransient
+	//@XmlTransient
+	@JsonIgnore
 	@Id
 	@OneToOne(cascade= CascadeType.ALL)
 	@JoinColumn(name="ID")

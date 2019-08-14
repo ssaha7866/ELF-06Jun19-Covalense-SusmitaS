@@ -28,6 +28,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
+//import lombok.Data;
+
 
 @SuppressWarnings("serial")
 @JsonIdentityInfo(generator=
@@ -37,6 +39,7 @@ import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 @XmlRootElement(name="employee-info")
 @JsonRootName(value ="employee-info")
 //@XmlAccessorType(XmlAccessType.FIELD)
+//@Data
 public class EmployeeInfoBean implements Serializable{
 	
 	

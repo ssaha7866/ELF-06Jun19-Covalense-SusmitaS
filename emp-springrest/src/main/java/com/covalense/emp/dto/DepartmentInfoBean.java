@@ -6,10 +6,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
 
+//import lombok.Data;
 
+//@Data
 @SuppressWarnings("serial")
 //@XmlAccessorType(XmlAccessType.FIELD)
 @Entity
@@ -38,5 +38,6 @@ public class DepartmentInfoBean implements Serializable{
 
 	public void setDepartmentName(String departmentName) {
 		this.departmentName = departmentName;
+		
 	}
 }
