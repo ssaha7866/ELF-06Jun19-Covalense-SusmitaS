@@ -1,0 +1,23 @@
+<!-- ============SERVLET==============-->
+https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+
+<!-- ============MYSQL==============-->
+https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
+<!-- ============LOMBOK==============-->
+https://mvnrepository.com/artifact/org.projectlombok/lombok
+
+<!-- ============HIBERNATE CORE==============-->
+https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+
+<!-- ============SPRING CORE==============-->
+https://mvnrepository.com/artifact/org.springframework/spring-core
+
+<!-- ============SPRING CONTEXT==============-->
+https://mvnrepository.com/artifact/org.springframework/spring-context
+
+<!-- ============SPRING WEB==============-->
+https://mvnrepository.com/artifact/org.springframework/spring-web
+
+<!-- ============SPRING WEBMVC==============-->
+https://mvnrepository.com/artifact/org.springframework/spring-webmvc
