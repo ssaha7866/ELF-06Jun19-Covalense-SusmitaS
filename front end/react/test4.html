@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!-- Load React API -->
+<script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<!-- Load React DOM-->
+<script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<!-- Load Babel Compiler -->
+        <script src=" https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+
+<body>
+        <div id="mydiv"></div>
+
+        <script type="text/babel">
+        
+      class Hello extends React.Component{
+
+           constructor(props){
+               super(props);
+               
+              console.log("testing constructor",props.text);
+              this.state={name: "hello"};
+               
+          
+           this.change = this.change.bind(this);
+           }
+            componentDidMount(){
+            console.log("testing");
+           };
+           change () {
+               this.setState({name: "Susmita"})
+               
+               
+           }
+            render(){
+                console.log("testing render");
+                
+                return(
+                <div>
+                 <input type="text" value={this.state.name}/>
+                 <br/>
+                 <button type="button" onClick={this.change}>Submit</button>
+                
+            </div>)
+        }
+            } 
+            ReactDOM.render(<Hello /> , document.getElementById("mydiv"))
+
+           
+        </script> 
+</body>
+</html>
